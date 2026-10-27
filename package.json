@@ -1,0 +1,11 @@
+{
+  "name": "mek-analytics",
+  "private": true,
+  "version": "0.1.0",
+  "description": "React + Node: парсинг Excel-расписаний МЭК и аналитика дефектов",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev"
+  }
+}
